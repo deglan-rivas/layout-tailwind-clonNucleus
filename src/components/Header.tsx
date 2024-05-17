@@ -19,7 +19,7 @@ export default function Header() {
             <p className="text-3xl font-bold text-center md:text-left md:text-5xl">
               Recibe y realiza pagos en tu celular con nucleus
             </p>
-            <button className="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 text-center w-full md:w-auto md:text-xl">
+            <button className="rounded-md bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 text-center w-full md:w-auto md:text-xl">
               Obtener Cuenta
             </button>
           </div>

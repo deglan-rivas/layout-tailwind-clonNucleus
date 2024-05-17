@@ -11,14 +11,14 @@ export default function Commissions() {
             Mientras más veces utilices nucleus, menos pagas:
           </p>
 
-          <p className="text-black text-right text-xl flex flex-col justify-between items-center gap-4 bg-white border shadow-lg px-5 py-5 transition-transform hover:scale-105 md:flex-row">
+          <p className="rounded-md text-black text-right text-xl flex flex-col justify-between items-center gap-4 bg-white border shadow-lg px-5 py-5 transition-transform hover:scale-105 md:flex-row">
             <span className="text-5xl font-bold text-purple-700">
               3%
             </span>
             de todas tus transacciones si tus movimientos son menores a $999 USD.
           </p>
 
-          <p className="text-black text-right text-xl flex flex-col justify-between items-center gap-4 bg-white border shadow-lg px-5 py-5 transition-transform hover:scale-105 md:flex-row">
+          <p className="rounded-md text-black text-right text-xl flex flex-col justify-between items-center gap-4 bg-white border shadow-lg px-5 py-5 transition-transform hover:scale-105 md:flex-row">
             <span className="text-5xl font-bold text-purple-700">
               2.5%
             </span>

@@ -1,6 +1,7 @@
 import Commissions from "./components/Commissions"
 import Header from "./components/Header"
 import Security from "./components/Security"
+import Testimonials from "./components/Testimonials"
 import WhatIs from "./components/WhatIs"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <WhatIs />
       <Security />
       <Commissions />
+      <Testimonials />
     </>
   )
 }

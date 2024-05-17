@@ -41,15 +41,15 @@ export default function Security() {
 
         <div className="flex flex-col justify-center items-center md:flex-row gap-8">
           <div className="space-y-10 basis-full md:basis-1/2">
-            <p className="px-5 py-5 bg-white text-xl transition-transform hover:scale-105 md:text-2xl">
+            <p className="rounded-md px-5 py-5 bg-white text-xl transition-transform hover:scale-105 md:text-2xl">
               Nucleus es seguro e imposible de clonar
             </p>
 
-            <p className="px-5 py-5 bg-white text-xl transition-transform hover:scale-105 md:text-2xl">
+            <p className="rounded-md px-5 py-5 bg-white text-xl transition-transform hover:scale-105 md:text-2xl">
               Utiliza tu cara o tu dedo para confirmar un depósito o registrar una cuenta
             </p>
 
-            <p className="px-5 py-5 bg-white text-xl transition-transform hover:scale-105 md:text-2xl">
+            <p className="rounded-md px-5 py-5 bg-white text-xl transition-transform hover:scale-105 md:text-2xl">
               Paga en un establecimiento con una tarjeta de crédito que se desactiva una vez que has hecho tu compra
             </p>
           </div>

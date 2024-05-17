@@ -24,7 +24,7 @@ const whatIsItems: WhatIsItem[] = [
 
 function WhatIsItem({ item }: { item: WhatIsItem }) {
   return (
-    <div className="px-5 py-5 space-y-2 border shadow-2xl bg-white hover:scale-105 transition-transform">
+    <div className="rounded-md px-5 py-5 space-y-2 border shadow-2xl bg-white hover:scale-105 transition-transform">
       <h3 className="text-purple-700 font-bold text-center text-3xl md:text-4xl">
         {item.title}
       </h3>
