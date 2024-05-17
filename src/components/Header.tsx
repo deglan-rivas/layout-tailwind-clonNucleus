@@ -1,16 +1,16 @@
 export default function Header() {
   return (
-    <header className="bg-[url(/header_bg.svg)] bg-no-repeat bg-right-top bg-[length:50px_50px]">
+    <header className="bg-[url(/header_bg.svg)] bg-no-repeat bg-right-top bg-[length:100px] md:bg-[length:600px] lg:bg-[length:750px] xl:bg-[length:1100px]">
       <div className="max-w-screen-xl mx-auto px-10 py-10">
         <div className="flex flex-col justify-between items-center gap-4 md:flex-row">
           <div className="w-40">
             <img src="/logo.svg" alt="logo Nucleus" />
           </div>
           <nav className="text-center flex flex-col gap-2 justify-between items-center text-purple-700 md:flex-row md:text-white">
-            <a href="#">¿Qué es?</a>
-            <a href="#">¿Cómo funciona?</a>
-            <a href="#">Precios</a>
-            <a href="#">Contratar</a>
+            <a href="#" className="text-purple-700 text-xl px-2 py-1 rounded-md hover:bg-purple-500 hover:text-white md:text-white">¿Qué es?</a>
+            <a href="#" className="text-purple-700 text-xl px-2 py-1 rounded-md hover:bg-purple-500 hover:text-white md:text-white">¿Cómo funciona?</a>
+            <a href="#" className="text-purple-700 text-xl px-2 py-1 rounded-md hover:bg-purple-500 hover:text-white md:text-white">Precios</a>
+            <a href="#" className="text-purple-700 text-xl px-2 py-1 rounded-md hover:bg-purple-500 hover:text-white md:text-white">Contratar</a>
           </nav>
         </div>
 
