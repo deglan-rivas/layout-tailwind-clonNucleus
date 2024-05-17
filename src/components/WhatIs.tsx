@@ -24,7 +24,7 @@ const whatIsItems: WhatIsItem[] = [
 
 function WhatIsItem({ item }: { item: WhatIsItem }) {
   return (
-    <div className="px-5 py-5 space-y-2 shadow-2xl bg-white hover:scale-110 transition-transform">
+    <div className="px-5 py-5 space-y-2 shadow-2xl bg-white hover:scale-105 transition-transform">
       <h3 className="text-purple-700 font-bold text-center text-3xl md:text-4xl">
         {item.title}
       </h3>
@@ -37,19 +37,21 @@ function WhatIsItem({ item }: { item: WhatIsItem }) {
 
 export default function WhatIs() {
   return (
-    <section className="mx-5 space-y-10 pb-10">
-      <h2 className="text-5xl font-bold text-center md:text-6xl">
-        ¿Qué es?
-      </h2>
-      <div className="grid grid-cols-3 gap-10">
-        <div className="col-span-3 row-start-2 md:col-span-1 md:row-start-1 md:flex md:items-center">
-          <img src="/app_2.svg" alt="imagen de app 2" />
-        </div>
+    <section className="">
+      <div className="max-w-screen-xl mx-auto px-10 space-y-10 pb-10">
+        <h2 className="text-5xl font-bold text-center md:text-6xl">
+          ¿Qué es?
+        </h2>
+        <div className="grid grid-cols-3 gap-10">
+          <div className="col-span-3 row-start-2 md:col-span-1 md:row-start-1 md:flex md:items-center">
+            <img src="/app_2.svg" alt="imagen de app 2" className="flex justify-center items-center" />
+          </div>
 
-        <div className="space-y-10 col-span-3 flex flex-col justify-between md:col-span-2">
-          {
-            whatIsItems.map(item => <WhatIsItem key={item.id} item={item} />)
-          }
+          <div className="space-y-10 px-5 col-span-3 flex flex-col justify-between md:col-span-2 lg:justify-center">
+            {
+              whatIsItems.map(item => <WhatIsItem key={item.id} item={item} />)
+            }
+          </div>
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import Security from "./components/Security"
 import WhatIs from "./components/WhatIs"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <WhatIs />
+      <Security />
     </>
   )
 }
