@@ -18,13 +18,13 @@ const whatIsItems: WhatIsItem[] = [
   {
     id: 3,
     title: "Administrable",
-    content: "Añade o transfiere fondos a tu banco, añade limites o controla tus gastos"
+    content: "Añade o transfiere fondos a tu banco, añade límites o controla tus gastos"
   }
 ]
 
 function WhatIsItem({ item }: { item: WhatIsItem }) {
   return (
-    <div className="px-5 py-5 space-y-2 shadow-2xl bg-white hover:scale-105 transition-transform">
+    <div className="px-5 py-5 space-y-2 border shadow-2xl bg-white hover:scale-105 transition-transform">
       <h3 className="text-purple-700 font-bold text-center text-3xl md:text-4xl">
         {item.title}
       </h3>
