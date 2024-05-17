@@ -1,4 +1,5 @@
 import Commissions from "./components/Commissions"
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Security from "./components/Security"
 import Testimonials from "./components/Testimonials"
@@ -13,6 +14,7 @@ function App() {
       <Security />
       <Commissions />
       <Testimonials />
+      <Footer />
     </>
   )
 }
